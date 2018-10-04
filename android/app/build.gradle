@@ -108,7 +108,7 @@ android {
   compileSdkVersion 27
 
   defaultConfig {
-    applicationId "com.invertase.rnfirebasestarter"
+    applicationId "com.cedesistemas.tdm"
     minSdkVersion 18
     targetSdkVersion 27
     versionCode 1
@@ -153,6 +153,9 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-vector-icons')
+    compile project(':react-native-icons')
+    compile project(':react-native-firebase')
   implementation(project(':react-native-firebase')) {
     transitive = false
   }

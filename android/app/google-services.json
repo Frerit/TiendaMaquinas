@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "159960485782",
+    "firebase_url": "https://canvas-modem-168923.firebaseio.com",
+    "project_id": "canvas-modem-168923",
+    "storage_bucket": "canvas-modem-168923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159960485782:android:b69be6119f09bd51",
+        "android_client_info": {
+          "package_name": "com.burgermenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159960485782-7pngfniphs68hg5u98v0m18q5a1l984o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSMkfsl53f-6DDIXHlo5NirAEX6sFVu4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159960485782:android:352a2c8def42ca67",
+        "android_client_info": {
+          "package_name": "com.cedesistemas.tdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159960485782-7pngfniphs68hg5u98v0m18q5a1l984o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSMkfsl53f-6DDIXHlo5NirAEX6sFVu4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159960485782:android:b2a62744d0a9e0e6",
+        "android_client_info": {
+          "package_name": "com.centinels.tiendam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159960485782-7pngfniphs68hg5u98v0m18q5a1l984o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSMkfsl53f-6DDIXHlo5NirAEX6sFVu4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
