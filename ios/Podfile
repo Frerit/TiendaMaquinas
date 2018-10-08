@@ -30,4 +30,6 @@ target 'TDM' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNLanguages', :path => '../node_modules/react-native-languages'
+
 end

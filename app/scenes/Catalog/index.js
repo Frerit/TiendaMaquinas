@@ -5,6 +5,7 @@ import { SearchBarProvider } from './component/searchBarAnimation'
 
 import SearchBar from './component/SearchBar';
 import Tab from './component/tabs';
+import i18n from '../../utils/i18n'
 
 import SearchBarSuggestion from './component/SearchBarSuggestion';
 import SearchBarLocationSuggestion from './component/SearchBarLocationSuggestion';
@@ -22,8 +23,8 @@ class Catalog extends Component {
     this.state = {
       index: 0,
       routes: [
-        { key: 'tab1', title: 'Mercado' },
-        { key: 'tab2', title: 'Herramientas' }
+        { key: 'tab1', title: i18n.t('MARKET')  },
+        { key: 'tab2', title: i18n.t('TOOLS') }
       ],
     };
   }
