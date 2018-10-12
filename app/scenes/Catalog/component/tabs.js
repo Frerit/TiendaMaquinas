@@ -9,10 +9,12 @@ export default class Tab extends React.PureComponent {
     super(props);
 
     this.state = {
-      ArticleProducst: [],
-      dataSource: Array(20).fill().map((_, index) => ({id: index}))
+      ArticleProducst: Array(10).fill().map((_, index) => ({_id: index})),
+      dataSource: Array(10).fill().map((_, index) => ({_id: index}))
     };
   }
+
+
 
   async componentDidMount() {
     const data = await API.getArticleAwait();
@@ -44,10 +46,6 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 15,
     paddingTop: 15
-  },
-  aling: {
-    flex: 1,
-    justifyContent: 'center',
   },
   item: {
     height: 150,

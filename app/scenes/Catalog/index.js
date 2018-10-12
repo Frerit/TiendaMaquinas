@@ -90,7 +90,7 @@ class Catalog extends Component {
             {Platform.OS === 'android' &&
             <StatusBar
               translucent={true}
-              backgroundColor="transparent"
+              backgroundColor="#30225e"
             />
             }
             <TabView

@@ -74,7 +74,7 @@ class Index extends Component {
             <Text style={styles.textLogo}>TIENDA MAQUINAS</Text>
           </View>
         )}
-        <KeyboardAvoidingView keyboardVerticalOffset={0}
+        <KeyboardAvoidingView keyboardVerticalOffset={50}
                               behavior={'padding'}
                               style={styles.container }>
 

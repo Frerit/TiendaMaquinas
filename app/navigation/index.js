@@ -4,14 +4,14 @@ import Icons from 'react-native-vector-icons/FontAwesome'
 import {createBottomTabNavigator} from 'react-navigation-tabs'
 
 //Tabs
-import Tab1 from './tab-1';
-import Tab3 from './tab-3';
+import Home from "../scenes/Home";
 import Catalog from "../scenes/Catalog";
+import Setting from "../scenes/Setting";
 
 
 export const Tabs = createBottomTabNavigator({
-  Tab1: {
-    screen: Tab1,
+  Home: {
+    screen: Home,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => <Icons name="home" size={24} color={tintColor} ></Icons>
     }
@@ -22,14 +22,14 @@ export const Tabs = createBottomTabNavigator({
       tabBarIcon: ({ tintColor }) => <Icons name="shopping-cart" size={24} color={tintColor} ></Icons>
     }
 },
-  Tab3: {
-    screen: Tab3,
+  Setting: {
+    screen: Setting,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => <Icons name="sliders" size={24} color={tintColor} ></Icons>
     }},
 },{
-  order: ['Tab1', 'Catalog', 'Tab3'],
-  initialRouteName: 'Catalog',
+  order: ['Home', 'Catalog', 'Setting'],
+  initialRouteName: 'Home',
   animationEnabled: true,
   tabBarOptions: {
     showLabel: false,
